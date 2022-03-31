@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper</title>
+        <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    </head>
+
+    <body onload="startTimer()">
+        <div class="container">
+            <div class="header">
+                <h1> Minesweeper </h1>
+            </div>
+            <div class="view">
+                <select id="difficult" onchange="setDifficulty()">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>&nbsp;&nbsp;&nbsp;
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <span>Mines:</span>
+                <span id="Mines" > </span>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <span>Time:</span>
+                <span id="timer" > </span>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+            </div>
+            
+            <div id="smiley" class="smiley" onmousedown="smileyDown();" onmouseup="smileyUp();" onclick="startGame();"></div>
+            
+            <div id="minefield"></div>
+        </div>
+        <script type="text/javascript" src="js/minesweeper.js" ></script>
+    </body>
+</html>

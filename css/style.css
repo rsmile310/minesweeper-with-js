@@ -1,0 +1,166 @@
+.tile {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background-image: url("../images/clear.png");
+}
+
+.container{
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    background-color: darkgray;
+}
+
+.header{
+    color: darkorchid;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightblue;
+}
+
+.view{
+    color: darkorchid;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightblue;
+}
+
+.diff-grade{
+    color: darkorchid;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightblue;
+}
+
+.hidden {
+    background-image: url("../images/hidden.png");
+}
+
+.flag {
+    background-image: url("../images/flag.png");
+}
+
+.mine {
+    background-image: url("../images/mine.png");
+}
+.mine_hit {
+    background-image: url("../images/mine_hit.png");
+}
+.mine_marked {
+    background-image: url("../images/mine_marked.png");
+}
+
+.tile_1 {
+    background-image: url("../images/tile_1.png");
+}
+.tile_2 {
+    background-image: url("../images/tile_2.png");
+}
+.tile_3 {
+    background-image: url("../images/tile_3.png");
+}
+.tile_4 {
+    background-image: url("../images/tile_4.png");
+}
+.tile_5 {
+    background-image: url("../images/tile_5.png");
+}
+.tile_6 {
+    background-image: url("../images/tile_6.png");
+}
+.tile_7 {
+    background-image: url("../images/tile_7.png");
+}
+.tile_8 {
+    background-image: url("../images/tile_8.png");
+}
+
+.smiley {
+    margin:auto;
+    width: 26px;
+    height: 26px;
+    background-image: url("../images/face_up.png");
+}
+.face_down {
+    background-image: url("../images/face_down.png");
+}
+.face_limbo {
+    background-image: url("../images/face_limbo.png");
+}
+.face_lose {
+    background-image: url("../images/face_lose.png");
+}
+.face_win {
+    background-image: url("../images/face_win.png");
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    margin:auto;
+    text-align: center;
+}
+
+
+.mine_flag {
+    background-image: url("../images/flag.png");
+}
+
+.question_flag {
+    background-image: url("../images/mine_hit.png");
+}
+
+.clear_flag {
+    background-image: url("../images/clear.png");
+}
+
+.a1_flag {
+    background-image: url("../images/tile_1.png");
+}
+
+.a2_flag {
+    background-image: url("../images/tile_2.png");
+}
+
+.a3_flag {
+    background-image: url("../images/tile_3.png");
+}
+
+.a4_flag {
+    background-image: url("../images/tile_4.png");
+}
+
+.a5_flag {
+    background-image: url("../images/tile_5.png");
+}
+
+.a6_flag {
+    background-image: url("../images/tile_6.png");
+}
+
+.a7_flag {
+    background-image: url("../images/tile_7.png");
+}
+
+.a8_flag {
+    background-image: url("../images/tile_8.png");
+}
+
+.lose_flag {
+    background-image: url("../images/face_lose.png");
+}
+
+.marked_flag {
+    background-image: url("../images/mine_marked.png");
+}
+
+.hit_flag {
+    background-image: url("../images/mine_hit.png");
+}
+
+.mine_nothit_flag {
+    background-image: url("../images/mine.png");
+}
+
